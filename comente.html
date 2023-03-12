@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Comente - Pixels.gg</title>
+	<link rel="stylesheet" href="css/styleC.css">
+	<link rel="shortcut icon" href="img/favicon.ico"/>
+</head>
+<body>
+	<header>
+		<a href="index.html"><img src="img/pixelsgg.png" width="300" height="100"></a>
+		<nav>
+			<ul>
+				<li><a href="index.html">Início</a></li>
+				<li><a href="comente.html">Comente</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+    <main>
+        <section id="comments">
+			<form>
+				<label for="name">Nome:</label>
+				<input type="text" id="name" name="name">
+				<label for="comment">Comentário:</label>
+				<textarea id="comment" name="comment"></textarea>
+				<button type="submit">Enviar</button>
+				<br>
+				<br>
+				<button id="clear-comments">Limpar Comentários</button>
+
+			</form>
+			<div id="comments-list">
+				<!-- Os comentários serão adicionados aqui com JavaScript -->
+			</div>
+			<div class="aviso">Os comentários serão perdidos após a atualização da página</div>
+		</section>
+    </main>
+
+		
+	<footer>
+		<p>© 2023 Pixels.gg</p>
+		<ul>
+			<li><a href="sobre.html">Sobre</a></li>
+		</ul>
+	</footer>
+	
+	
+	<script src="js/scriptC.js"></script>
+</body>
+</html>

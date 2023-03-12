@@ -1,0 +1,241 @@
+body {
+	background-color: #fff;
+	color: #333;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	}
+	
+	header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	}
+	
+	h1 {
+	margin: 0;
+	font-size: 2.5rem;
+	}
+	
+	nav {
+	display: flex;
+	align-items: center;
+	}
+	
+	nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	}
+	
+	nav li {
+	margin-left: 20px;
+	}
+	
+	nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2rem;
+	transition: all 0.2s ease-in-out;
+	}
+	
+	nav a:hover {
+	color: #90ee90;
+	}
+	
+	main {
+	margin: 20px;
+	}
+	
+	h2 {
+	margin-bottom: 20px;
+	font-size: 2rem;
+	color: #333;
+	}
+	
+	form {
+	margin-bottom: 20px;
+	}
+	
+	label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 1.2rem;
+	color: #333;
+	}
+	
+	input[type="text"] {
+	padding: 10px;
+	width: 100%;
+	font-size: 1.2rem;
+	border: none;
+	border-radius: 5px;
+	background-color: #fff;
+	}
+	
+.comment {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#comments form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+  }
+  
+  #comments form label {
+	margin-bottom: 10px;
+	font-weight: bold;
+  }
+  
+  #comments form input[type="text"], 
+  #comments form textarea {
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.2s ease-in-out;
+  }
+  
+  #comments form input[type="text"]:focus, 
+  #comments form textarea:focus {
+	outline: none;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  #comments form textarea {
+	height: 150px;
+  }
+  
+  #comments form button {
+	margin: 5px;
+	width: calc(33.33% - 40px);
+	background-color: #90ee90;
+	color: #fff;
+	border: #90ee90;
+	border-radius: 5px;
+	padding: 15px;
+	transition: all 0.2s ease-in-out;
+  }
+  
+  #comments form button:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	transform: translateY(-5px);
+  }
+  
+  #comments form button:active {
+	background-color: #fff;
+	color: #90ee90;
+  }
+  
+  
+.comment p {
+    margin: 0;
+}
+
+.comment span {
+    display: block;
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 5px;
+}
+.comment {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.comment:hover {
+  box-shadow: 1px 1px 2px #ddd;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.comment .user-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.comment .user-name {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.comment .comment-text {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.comment .comment-actions {
+  margin-top: 5px;
+}
+
+.comment .comment-actions button {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.comment .comment-actions button:hover {
+  background-color: #333;
+  cursor: pointer;
+}
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	}
+	
+	footer p {
+	margin: 0;
+	font-size: 1.2rem;
+	}
+	
+	footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	}
+	
+	footer li {
+	margin-right: 20px;
+	}
+	
+	footer a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2rem;
+	transition: all 0.2s ease-in-out;
+	}
+	
+	footer a:hover {
+	color: #90ee90;
+	}
+.aviso {
+	background-color: #ffd700;
+	color: #000;
+	padding: 10px;
+	text-align: center;
+  }
+  

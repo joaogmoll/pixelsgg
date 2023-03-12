@@ -1,0 +1,167 @@
+body {
+	background-color: #fff;
+	color: #333;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	}
+	
+	header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	}
+	
+	h1 {
+	margin: 0;
+	font-size: 2.5rem;
+	}
+	
+	nav {
+	display: flex;
+	align-items: center;
+	}
+	
+	nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	}
+	
+	nav li {
+	margin-left: 20px;
+	}
+	
+	nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2rem;
+	transition: all 0.2s ease-in-out;
+	}
+	
+	nav a:hover {
+	color: #90ee90;
+	}
+	
+	main {
+	margin: 20px;
+	}
+	
+	h2 {
+	margin-bottom: 20px;
+	font-size: 2rem;
+	color: #333;
+	}
+	
+	form {
+	margin-bottom: 20px;
+	}
+	
+	label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 1.2rem;
+	color: #333;
+	}
+	
+	input[type="text"] {
+	padding: 10px;
+	width: 100%;
+	font-size: 1.2rem;
+	border: none;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	}
+	
+	.video-grid {
+	display: flex;
+	flex-wrap: wrap;
+	}
+	
+	.video {
+	margin: 20px;
+	width: calc(33.33% - 40px);
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 20px;
+	transition: all 0.2s ease-in-out;
+	}
+	
+	.video:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	transform: translateY(-5px);
+	}
+	
+	.video img {
+	width: 100%;
+	border-radius: 5px;
+	}
+	
+	.video h3 {
+	margin: 20px 0 10px;
+	font-size: 1.5rem;
+	color: #333;
+	}
+	
+	.video p {
+	margin: 0 0 20px;
+	font-size: 1.2rem;
+	color: #666;
+	}
+	
+	.video a {
+	display: block;
+	margin-top: 20px;
+	background-color: #90ee90;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	text-align: center;
+	transition: all 0.2s ease-in-out;
+	}
+	
+	.video a:hover {
+	background-color: #fff;
+	color: #90ee90;
+	}
+	
+	footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	}
+	
+	footer p {
+	margin: 0;
+	font-size: 1.2rem;
+	}
+	
+	footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	}
+	
+	footer li {
+	margin-right: 20px;
+	}
+	
+	footer a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2rem;
+	transition: all 0.2s ease-in-out;
+	}
+	
+	footer a:hover {
+	color: #90ee90;
+	}
+	
